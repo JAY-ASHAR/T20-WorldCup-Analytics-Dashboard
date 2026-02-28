@@ -27,23 +27,36 @@ Project Objective
 ⸻
 
 Problem Statement
+
 	•	Ball-by-ball data is complex and unstructured
+	
 	•	Difficult to manually identify performance trends
+	
 	•	No centralized analytical view for players, teams, and venues
+	
 	•	Hard to compare multi-year tournament data
+
 
 ⸻
 
 Proposed Solution
 
 The dashboard provides:
+
 	•	Tournament-level summary insights
+	
 	•	Match-wise performance breakdown
+	
 	•	Batting analytics
+	
 	•	Bowling analytics
+	
 	•	Team comparison metrics
+	
 	•	Venue-based performance analysis
+	
 	•	Interactive filtering for deeper exploration
+	
 
 ⸻
 
@@ -54,11 +67,13 @@ Dashboard Sections
 	•	Year-wise scoring trends
 	•	Top performing batters and bowlers
 
+
 2. Match Summary
 	•	Venue and year analysis
 	•	Toss decision and innings order
 	•	Match winner insights
 	•	High-scoring and close-match identification
+
 
 3. Batting Analytics
 	•	Top run scorers
@@ -67,11 +82,13 @@ Dashboard Sections
 	•	Over-wise scoring trends
 	•	Death over (16–20) performance analysis
 
+
 4. Bowling Analytics
 	•	Leading wicket takers
 	•	Economy rate comparison
 	•	Wickets by over distribution
 	•	Dismissal type analysis
+
 
 5. Team Comparison
 	•	Runs scored vs runs conceded
@@ -79,27 +96,37 @@ Dashboard Sections
 	•	Head-to-head insights
 	•	Team performance consistency
 
+
 6. Venue Analysis
 	•	Average runs by venue
 	•	Average wickets by venue
 	•	Batting-friendly vs bowler-friendly grounds
 	•	Match winner distribution by venue
 
+
 ⸻
+
 
 Dataset
 
+
 Source: Kaggle – Ball-by-Ball IT20 Dataset
+
 	•	1,800+ international T20 matches
+	
 	•	20+ participating teams
+	
 	•	Multi-year tournament coverage
+	
 	•	Ball-level detailed match records
+	
 
 Data was cleaned, structured, and transformed before visualization.
 
 ⸻
 
 System Architecture (High Level)
+
 	1.	Raw dataset collection
 	2.	Data cleaning and preprocessing
 	3.	Data transformation and aggregation
@@ -110,32 +137,50 @@ System Architecture (High Level)
 ⸻
 
 Technology Stack
+
 	•	Dashboard Tool: Power BI
+	
 	•	Data Cleaning: Excel / Power Query
+	
 	•	Data Analysis: Aggregation and statistical metrics
+	
 	•	Visualization: KPIs, charts, matrices
+	
 	•	IDE: Power BI Desktop
+	
 
 ⸻
 
 Key Findings
 	•	Scoring rates have increased across tournaments
+	
 	•	Death overs (16–20) are critical for match outcomes
+	
 	•	A small group of elite players significantly influence results
+	
 	•	Balanced teams with strong bowling depth perform more consistently
+	
 	•	Venue conditions strongly impact scoring and wicket-taking patterns
+	
 	•	Toss decisions are less influential than venue and innings order
+	
 
 ⸻
 
 Testing Summary
 
 All dashboard components were validated for:
+
 	•	Data transformation accuracy
+	
 	•	KPI calculation correctness
+	
 	•	Cross-filter functionality
+	
 	•	Performance metrics validation
+	
 	•	Visualization consistency
+	
 
 All test cases executed successfully.
 
@@ -143,21 +188,32 @@ All test cases executed successfully.
 
 Future Enhancements
 	•	Player performance prediction using Machine Learning
+	
 	•	Match outcome forecasting
+	
 	•	Advanced team clustering
+	
 	•	Real-time data integration
+	
 	•	Web-based interactive deployment
+	
 
 ⸻
 
 Conclusion
 
 This project demonstrates the ability to:
+
 	•	Handle large-scale sports datasets
+	
 	•	Perform structured data transformation
+	
 	•	Generate analytical insights
+	
 	•	Build professional dashboards
+	
 	•	Present findings clearly for decision-making
+	
 
 The dashboard provides meaningful performance insights across players, teams, and venues in T20 World Cup tournaments.
 
