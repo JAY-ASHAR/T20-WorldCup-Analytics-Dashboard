@@ -1,4 +1,4 @@
-T20 World Cup Analytics Dashboard
+# T20 World Cup Analytics Dashboard
 
 The T20 World Cup Analytics Dashboard is a data analytics project developed to analyze international T20 match data using interactive visualizations and performance metrics.
 
@@ -61,6 +61,7 @@ The dashboard provides:
 ⸻
 
 Dashboard Sections
+
 
 1. Overview Hub
 	•	Total runs, matches, wickets, and overs
