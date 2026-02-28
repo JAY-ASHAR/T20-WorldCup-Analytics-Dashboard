@@ -7,10 +7,8 @@ The dashboard transforms ball-by-ball cricket data into structured insights acro
 ⸻
 
 Live Dashboard
+https://app.powerbi.com/groups/me/reports/7ae236e7-c92b-4533-ad39-7f82f6a51ecc/caf2230b639506226170?experience=power-
 
-(If deployed, add link here)
-Example:
-https://your-dashboard-link.com
 
 ⸻
 
